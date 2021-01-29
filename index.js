@@ -86,9 +86,4 @@ const itermTab = async (
   }
 }
 
-if (args.length > 2) {
-  itermTab(args.slice(2).join(' '))
-  process.exit(0)
-}
-
 module.exports = itermTab
